@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main3() {
     kalimat := "Aku suka belajar golang"
     terbanyak := 0
     karakterTerbanyak := ' '
