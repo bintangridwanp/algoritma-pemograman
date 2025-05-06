@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main1() {
 	var n int
 	fmt.Print("Masukkan jumlah baris: ")
 	fmt.Scan(&n)
