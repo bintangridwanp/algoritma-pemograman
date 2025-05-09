@@ -15,7 +15,6 @@ func main() {
 			}
 		}
 	}
-
 	hasil := angka[len(angka)/2]
 	fmt.Println(hasil)
 }

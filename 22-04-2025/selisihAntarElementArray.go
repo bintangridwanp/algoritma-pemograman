@@ -17,6 +17,5 @@ func main() {
 			hasil2 = hasil2 + b - a
 		}
 	}
-
 	fmt.Println(hasil1 + hasil2)
 }
