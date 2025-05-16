@@ -3,16 +3,15 @@ package main
 import "fmt"
 
 func main() {
-	data := [...]int{1, 2, 2, 3, 3, 3, 4, 2}
+	data := [...]int{1, 2, 2, 3, 3, 3, 4, 2, 3}
 
-	var frekuensi [101]int // Asumsikan nilai dalam array <= 100
+	var frekuensi [101]int
 
-	// Hitung frekuensi setiap nilai
 	for i := 0; i < len(data); i++ {
-		frekuensi[data[i]]++
+		frekuensi[data[i]] = frekuensi[data[i]] + 1
+		fmt.Println(frekuensi[data[i]])
 	}
 
-	// Cari nilai frekuensi maksimum
 	maks := 0
 	for i := 0; i < len(frekuensi); i++ {
 		if frekuensi[i] > maks {
@@ -20,7 +19,6 @@ func main() {
 		}
 	}
 
-	// Cetak semua nilai dengan frekuensi tertinggi
 	fmt.Println("Nilai paling sering muncul:")
 	for i := 0; i < len(frekuensi); i++ {
 		if frekuensi[i] == maks {
