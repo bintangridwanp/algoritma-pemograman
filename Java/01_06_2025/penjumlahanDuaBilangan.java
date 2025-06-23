@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class penjumlahanDuaBilangan {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+       Scanner input = new Scanner(System.in);
 
         System.out.print("Masukkan bilangan pertama: ");
         int bilanganPertama = input.nextInt();
@@ -11,7 +11,8 @@ public class penjumlahanDuaBilangan {
         int bilanganKedua = input.nextInt();
 
         int hasilPenjumlahan = bilanganPertama + bilanganKedua;
-        System.out.println("Hasil penjumlahan: " + hasilPenjumlahan);
+
+        System.out.println("Hasil penjumlahan " + bilanganPertama + " dan " + bilanganKedua + " adalah " + hasilPenjumlahan + ".");
         input.close();
     }
 }
