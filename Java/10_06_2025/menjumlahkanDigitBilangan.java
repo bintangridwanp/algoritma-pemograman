@@ -9,10 +9,13 @@ public class menjumlahkanDigitBilangan {
         System.out.print("Masukkan bilangan bulat positif: ");
         int angka = input.nextInt();
 
+        int hasil = 0;
         while (angka > 0) {
-            int digit = angka % 10; // Mendapatkan digit terakhir
-            angka = angka / 10; // Menghapus digit terakhir dari angka
-            System.out.print(digit + " "); // Menampilkan digit
+            int digit = angka % 10;
+            angka = angka / 10;
+            hasil = hasil + digit;
         }
+
+        System.out.println("Jumlah dari digit bilangan tersebut adalah " + hasil + ".");
     }
 }
