@@ -21,6 +21,5 @@ public class menentukanKategoriUsia {
         } else {
             System.out.println("Anda adalah lansia.");
         }
-
     }
 }
