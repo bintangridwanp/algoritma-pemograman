@@ -8,8 +8,7 @@ public class menghitungJumlahGaji {
 
         System.out.println("Masukkan jumlah karyawan: ");
         int jumlahKaryawan = input.nextInt();
-
-        int totalGaji = 0;
+        double totalGaji = 0;
 
         for (int i = 1; i <= jumlahKaryawan; i++) {
             System.out.println("Karyawan ke-" + i);

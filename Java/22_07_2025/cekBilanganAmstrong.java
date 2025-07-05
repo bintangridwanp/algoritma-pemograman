@@ -5,37 +5,51 @@ public class cekBilanganAmstrong {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Program Cek Bilangan Armstrong");
-        System.out.print("Masukkan bilangan bulat positif untuk mengecek apakah itu bilangan Armstrong: ");
-        int bilangan = input.nextInt();
+        System.out.print("Masukkan bilangan bulat positif: ");
+        int masukkanBilangan = input.nextInt();
 
-        if (bilangan < 0) {
+        if (masukkanBilangan == 0) {
+            System.out.println("Bilangan Armstrong tidak terdefinisi untuk 0.");
+            return;
+        } else if (masukkanBilangan < 0) {
             System.out.println("Bilangan harus positif.");
             return;
         }
 
+        int jumlahDigit = hitungJumlahDigit(masukkanBilangan);
+        int jumlahPangkat = hitungJumlahPangkat(masukkanBilangan, jumlahDigit);
+
+        if (jumlahPangkat == masukkanBilangan) {
+            System.out.println(masukkanBilangan + " adalah bilangan Armstrong.");
+        } else {
+            System.out.println(masukkanBilangan + " bukan bilangan Armstrong.");
+        }
+    }
+
+    // Menghitung jumlah digit pada bilangan
+    static int hitungJumlahDigit(int bilangan) {
+        int jumlah = 0;
         int temp = bilangan;
-        int jumlahDigit = 0;
-        while (temp != 0) {
-            jumlahDigit++;
+        while (temp > 0) {
+            jumlah++;
             temp /= 10;
         }
+        return jumlah;
+    }
 
-        temp = bilangan;
-        int sum = 0;
-        while (temp != 0) {
+    // Menghitung jumlah pangkat dari setiap digit
+    static int hitungJumlahPangkat(int bilangan, int jumlahDigit) {
+        int jumlahPangkat = 0;
+        int temp = bilangan;
+        while (temp > 0) {
             int digit = temp % 10;
             int pangkat = 1;
             for (int i = 0; i < jumlahDigit; i++) {
                 pangkat *= digit;
             }
-            sum += pangkat;
+            jumlahPangkat += pangkat;
             temp /= 10;
         }
-
-        if (sum == bilangan) {
-            System.out.println(bilangan + " adalah bilangan Armstrong.");
-        } else {
-            System.out.println(bilangan + " bukan bilangan Armstrong.");
-        }
+        return jumlahPangkat;
     }
 }
