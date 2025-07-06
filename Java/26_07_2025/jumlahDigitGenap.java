@@ -18,5 +18,6 @@ public class jumlahDigitGenap {
             bilangan /= 10;
         }
         System.out.println("Jumlah digit genap: " + jumlahDigitGenap);
+        input.close();
     }
 }
