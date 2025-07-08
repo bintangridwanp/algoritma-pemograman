@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/01_06_2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02_06_2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/03_06_2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/04_06_2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/05_06_2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/06_06_2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/07_06_2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/08_06_2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/09_06_2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10_06_2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11_07_2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/12_07_2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/13_07_2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/14_07_2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/15_07_2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/16_07_2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17_07_2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/18_07_2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/19_07_2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/20_07_2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/21_07_2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/22_07_2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/23_07_2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/24_07_2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/25_07_2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/26_07_2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/27_07_2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/28_07_2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/29_07_2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/30_07_2025" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
